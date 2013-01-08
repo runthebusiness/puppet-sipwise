@@ -1,0 +1,27 @@
+{
+  "description": "sipwise\n\nThis class installs sipwise package and configures it\n\nExamples:\n\n\tsipwise{\"installsipwise\":\n\t    cdrexportpassword=>\"mypassword\",\n\t    mysqlrootpassword=>\"mypassword\",\n\t}\n\t\n\t\n\n\nThis module has been tested in debian squeeze. It requires modifications and testing to work in other flavors of linux -- the code contains placeholders for where these changes would need to be made. If you would like to contribute the code to enable these other flavors please let us know.\n\nAuthors\n-------\nWill Ferrer, Ethan Brooks\n\nLicensees\n-------\n2012 developed under license for Switchsoft LLC http://www.switchsoft.com a \"Direct response telephony company\" as part of it's \"VOIP Call distribution, ROI analysis platform, call recording, and IVR for inbound and outbound sales\" and Run the Business Systems LLC a \"Technology development investment group\" as part of it's \"PHP, Javascript rapid application development framework and MySQL analysis tools\"\n\nLicense\n-------\nLicensed under the terms of the Open Source LGPL 3.0 license.  \n\n\nContact\n-------\nwill.ferrer@runthebusiness.net\n\nSupport\n-------\n\nPlease send tickets and issues to our contact email address or at: https://github.com/runthebusiness/puppet-sipwise/issues\n\nProject Url\n-------\nhttps://github.com/runthebusiness/puppet-sipwise\n",
+  "summary": "This class installs sipwise package and configures it",
+  "source": "UNKNOWN",
+  "dependencies": [
+
+  ],
+  "checksums": {
+    "templates/config.erb": "41a904ec687c2cb3386cce8d66dea51e",
+    "manifests/cdrexport.pp": "a8e4e9e2fd782003d691995bcb6f7965",
+    "manifests/params.pp": "e968f835be674effc7e8843281cfc993",
+    "manifests/mysql.pp": "0f32f73100e3efd60586f699ee705d9b",
+    "README": "bc3076a2bdefc275aa20dde5e9bc0323",
+    "tests/init.pp": "40c38a1e502985ca8bdc99182fe9643d",
+    "manifests/ngcp.pp": "707e68a5ce7dbeb527db5800f7cd0c54",
+    "Modulefile": "52aa727718bd91dd8ef22d6ea3263b03",
+    "manifests/init.pp": "647e75c9d881f7a7188f609b135e66db"
+  },
+  "types": [
+
+  ],
+  "license": "Apache License, Version 2.0",
+  "author": "runthebusiness",
+  "name": "runthebusiness-sipwise",
+  "project_page": "https://github.com/runthebusiness/puppet-sipwise",
+  "version": "0.8.0"
+}
